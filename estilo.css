@@ -1,0 +1,130 @@
+header {
+  width: 100%;
+  height: 200px;
+  background-color: hsl(32, 46%, 74%)
+}
+
+.perfil {
+  border-radius: 50%;
+  margin-top: -75px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: rgb(8, 8, 8);
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.conteudo {
+  border-top: 6px solid #b5b5b5;
+  border-bottom: 6px solid #b5b5b5;
+  border-radius: 3px;
+}
+
+.paragrafo {
+  background-color: #f1f1ef;
+  padding: 1rem;
+  font-family: "barney script";
+  font-size: 21px;
+  text-align: center;
+}
+
+.destaques {
+  display: flex;
+  gap: 1rem;
+}
+
+.destaque {
+  width: calc(25% - 1rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.destaque:first-child {
+  margin-left: 0.5rem;
+}
+
+.destaque span {
+  background-color: #f1f1ef;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  font-size: 24px;
+  text-align: center;
+  color: #6b6b6b;
+  text-decoration-color: #6b6b6b;
+  text-decoration: underline;
+}
+
+
+.informacoes {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.informacao {
+  width: calc(50% - 1rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.titulo {
+  background-color: #f1f1ef;
+  padding: 1rem;
+  font-size: 24px;
+  color: #6b6b6b;
+  margin: 1rem 0;
+  text-align: center;
+
+}
+
+.subtitulo {
+  font-size: 20px;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+input {
+  width: 5cm;
+  border-radius: 20px;
+  flex-direction: row;
+}
+
+button {
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #00000030;
+  border-style: outset;
+  border-image: radial-gradient(circle, rgb(236, 213, 186), rgb(230, 164, 17)) 1;
+ 
+}
+
+button:hover{
+  background-color: rgb(236, 213, 186);
+}
+
+.valor{
+  background-color: #f1f1ef;
+  padding: 0rem;
+  font-family: monospace;
+  font-size: 15px;
+}
+
